@@ -1,0 +1,4 @@
+##########################################
+#####HUU TRA - SPRING BOOT TRAINING#######
+#####VERSION: ${spring-boot.formatted-version}######
+##########################################

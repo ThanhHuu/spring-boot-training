@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+	<ul>
+		<th:block th:each="item : ${list}">
+			<li>
+				<span th:text="${item.firstName}"> </span>
+				<span th:text="${item.lastName}"> </span>
+				<span th:text="${item.address}"> </span>
+			</li>
+		</th:block>
+	</ul>
+</body>
+</html>
